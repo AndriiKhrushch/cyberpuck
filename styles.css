@@ -369,11 +369,12 @@ margin-top: 20px;
   grid-template-rows: repeat(auto 5);
 }
 .gridele1{
-  width: 624px;
+  width: 550px;
   color: #FFF;
 font-family: Archangelsk;
 font-size: 62px;
 font-weight: 400;
+overflow-wrap: break-word;
 }
 .gridele2{
   color: #52BEDC;
@@ -740,7 +741,7 @@ height: 213px;
   font-family: Archangelsk;
   font-size: 62px;
   font-weight: 400;
-  overflow-wrap: break-word;
+  
   }
   .gridele2{
     color: #52BEDC;
