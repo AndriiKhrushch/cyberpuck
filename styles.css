@@ -441,34 +441,35 @@ font-weight: 400;
   padding: 13px;
 }
 @media (max-width:425px){
+  *{max-width: 412px;
+    
+  }
   .maincont {
   flex-wrap: wrap;
   }
-  
   .title {
-    padding-left: 0px;
-    padding-top: 0px;
-    padding-right: 325px;
+    padding: 0;
     width: 200px;
     height: 50px;
+    margin-right: 138px;
   }
   .socialcont {
     display: flex;
     width: 400px;
     justify-content: center;
     padding: 0;
-    margin-right: 30px;
+    margin-right: 38px;
     margin-bottom: 800px;
     gap: 30px;
   }
   .yellowcont {
     width: 412px;
-height: 207px;
+    height: 207px;
     transform: translateX(0%);
   }
   .blacktext{
   font-size: 30px;
-  margin-left: 50px;
+  margin-left: 25px;
   margin-bottom: 25px;
   width: 340px;
   text-align: center;
@@ -476,7 +477,7 @@ height: 207px;
   .blackbutton{
     width: 272px;
     height: 78px;
-  margin-left: 75px;
+  margin-left: 50px;
   }
   .sizing{
     width: 412px;
@@ -658,6 +659,9 @@ height: 213px;
     text-align: center;
   
   }
+  .none{
+    display: none;
+  }
   .grid img:nth-child(2){
     margin-top: 25px;
     margin-right: 30px;
@@ -743,7 +747,7 @@ height: 213px;
   font-weight: 700;
   }
   .gridele3{
-    wcolor: #FFF;
+    color: #FFF;
     font-family: Roboto;
     font-size: 18px;
     margin-top: 21px;
